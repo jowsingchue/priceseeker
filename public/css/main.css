@@ -1,0 +1,158 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 0 0;
+}
+
+
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 20px;
+  font-weight: normal;
+}
+
+
+/**********************************
+Page: Result
+***********************************/
+
+#result {
+  text-align: center;
+}
+
+.result {
+  margin: 20px;
+}
+
+.result > a {
+  height: 180px;
+  padding: 15px;
+}
+
+
+
+.product-img {
+  float: left;
+}
+
+.product-detail {
+  padding: 10px;
+  margin-left: 160px;
+}
+
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #6ab47b;
+  border-color: #599a68;
+  border-bottom: 5px solid #599a68;
+}
+
+/* nav background on mobile */
+nav {
+  background: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+#result {
+  text-shadow: none;
+  color: #6ab47b;
+  background: #fff;
+  border-color: #6ab47b;
+}
+
+
+
