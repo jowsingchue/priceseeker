@@ -12,7 +12,7 @@
   {{ HTML::style('css/normalize.css'); }}
   {{ HTML::style('css/bootstrap.min.css'); }}
   {{ HTML::style('css/bootstrap-theme.min.css'); }}
-  <!-- <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'> -->
+  <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
   
   {{ HTML::style('css/main.css'); }}
  
