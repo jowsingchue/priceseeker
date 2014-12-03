@@ -4,7 +4,11 @@
     
     
     <div class="row">
-    {{ Form::open( array('class' => '') ) }}
+    {{ Form::open( array(
+        'action' => 'PagesController@store',
+        'class' => ''
+        ) ) }}
+        
         <div class="col-sm-2 col-xs-0"></div>
         <div class="col-sm-7 col-xs-9">
         {{ Form::text('search', null, array('class' => 'form-control', 'placeholder' => 'Search for any product on the planet...')) }}

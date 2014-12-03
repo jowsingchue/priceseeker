@@ -17,17 +17,17 @@ class PagesController extends \BaseController {
 	 */
 	public function store()
 	{
-        // $validation = Validator::make(Input::all(), ['search' => 'required']);
-        // if ($validation->fails())
-        // {
-        //     return Redirect::back();
-        // }
-        // $search = Input::get('search');
+        $validation = Validator::make(Input::all(), ['search' => 'required']);
+        if ($validation->fails())
+        {
+            return Redirect::back();
+        }
+        $search = Input::get('search');
 
-        // $result = Product::getProduct($search);
+        $result = Product::getProduct($search);
 
-        // return View::make('pages.result')->withResult($result);
-        return View::make('pages.test');
+        return View::make('pages.result')->withResult($result);
+        // return View::make('pages.test');
 
 
 	}
