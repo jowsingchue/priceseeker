@@ -1,7 +1,5 @@
 <?php
 
-use XmlIterator\XmlIterator;
-
 class PagesController extends \BaseController {
 
 	/**
@@ -20,10 +18,10 @@ class PagesController extends \BaseController {
 	public function store()
 	{
         $validation = Validator::make(Input::all(), ['search' => 'required']);
-        //if ($validation->fails())
-        //{
-            //return Redirect::back();
-        //}
+        if ($validation->fails())
+        {
+            return Redirect::back();
+        }
         $search = Input::get('search');
 
         $result = Product::getProduct($search);
