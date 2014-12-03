@@ -15,5 +15,7 @@ Up coming
 * [KU_Relationship](http://se.cpe.ku.ac.th/wiki/index.php/KU_Relationship)
 * [Trekking_Webservice](https://github.com/Termchai/Trekking_Webservice)
 
-Waiting for API improvement
+### Requests
 * Find product by partial name
+* Products contain their own *URL*
+* Products contain *link to their images*
