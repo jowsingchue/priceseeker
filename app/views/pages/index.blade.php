@@ -3,7 +3,7 @@
 @section('content')
     
     
-    <div class="row">
+    <div class="row" style="margin-top: 20px;">
     {{ Form::open( array(
         'url' => 'result',
         'class' => ''
