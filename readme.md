@@ -4,7 +4,7 @@ This project is a failed cloning of [PriceGrabber](http://www.pricegrabber.com) 
 
 
 ### Sites
-(http://limitless-waters-4046.herokuapp.com/public)[http://limitless-waters-4046.herokuapp.com/public]
+[http://limitless-waters-4046.herokuapp.com/public](http://limitless-waters-4046.herokuapp.com/public)
 
 
 ### Note
