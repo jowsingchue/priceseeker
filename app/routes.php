@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', 'PagesController@index');
-Route::post('/', 'PagesController@store');
+Route::post('result', 'PagesController@store');
 
 Route::get('result', function() {
     return 'result';

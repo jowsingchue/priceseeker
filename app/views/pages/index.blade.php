@@ -5,7 +5,7 @@
     
     <div class="row">
     {{ Form::open( array(
-        'action' => 'PagesController@store',
+        'url' => 'result',
         'class' => ''
         ) ) }}
         
