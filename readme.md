@@ -12,9 +12,14 @@ I don't host it yet so it has to be run locally.
 ### Installation & Usage
 ```
 git clone https://github.com/jowsingchue/priceseeker.git
-```
-```
 cd priceseeker
+```
+Download dependencies
+```
+composer update
+```
+To run
+```
 php artisan serve
 ```
 Then the site will be available at [http://localhost:8000](http://localhost:8000)
