@@ -27,8 +27,6 @@ class PagesController extends \BaseController {
         $result = Product::getProduct($search);
 
         return View::make('pages.result')->withResult($result);
-        // return View::make('pages.test');
-
 
 	}
 
