@@ -3,7 +3,7 @@
 This project is a failed cloning of [PriceGrabber](http://www.pricegrabber.com) (but a little bit functioning). 
 
 
-### Sites
+### Mainpage
 [http://limitless-waters-4046.herokuapp.com/public](http://limitless-waters-4046.herokuapp.com/public)
 
 
