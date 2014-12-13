@@ -2,22 +2,9 @@
 
 This project is a failed cloning of [PriceGrabber](http://www.pricegrabber.com) (but a little bit functioning). 
 
-I don't host it yet so it has to be run locally.
 
-### Server Requirements
-* PHP >= 5.4
-* Mcrypt PHP extension
-
-
-### Installation & Usage
-```
-git clone https://github.com/jowsingchue/priceseeker.git
-```
-```
-cd priceseeker
-php artisan serve
-```
-Then the site will be available at [http://localhost:8000](http://localhost:8000)
+### Mainpage
+[http://limitless-waters-4046.herokuapp.com/public](http://limitless-waters-4046.herokuapp.com/public)
 
 
 ### Note
@@ -28,5 +15,7 @@ Up coming
 * [KU_Relationship](http://se.cpe.ku.ac.th/wiki/index.php/KU_Relationship)
 * [Trekking_Webservice](https://github.com/Termchai/Trekking_Webservice)
 
-Waiting for API improvement
+### Requests
 * Find product by partial name
+* Products contain their own *URL*
+* Products contain *link to their images*
