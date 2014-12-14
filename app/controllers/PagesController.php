@@ -17,7 +17,9 @@ class PagesController extends \BaseController {
 	 */
 	public function store()
 	{
-        $validation = Validator::make(Input::all(), ['search' => 'required']);
+        $validation = Validator::make(Input::all(), [
+            'search' => 'required'
+            ]);
         if ($validation->fails())
         {
             return Redirect::back();
@@ -27,7 +29,6 @@ class PagesController extends \BaseController {
         $result = Product::getProduct($search);
 
         return View::make('pages.result')->withResult($result);
-
 	}
 
 }

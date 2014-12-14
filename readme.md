@@ -8,14 +8,13 @@ This project is a failed cloning of [PriceGrabber](http://www.pricegrabber.com) 
 
 
 ### Note
-This project still only work with 
-* [J-Force_Product_Web_Service](http://se.cpe.ku.ac.th/wiki/index.php/J-Force_Product_Web_Service).
-
-Up coming
+Working
+* [J-Force_Product_Web_Service](http://se.cpe.ku.ac.th/wiki/index.php/J-Force_Product_Web_Service)
 * [KU_Relationship](http://se.cpe.ku.ac.th/wiki/index.php/KU_Relationship)
+
+Not working
 * [Trekking_Webservice](https://github.com/Termchai/Trekking_Webservice)
 
-### Requests
-* Find product by partial name
-* Products contain their own *URL*
-* Products contain *link to their images*
+### Usage
+* Search for product by typing into the search box.
+* Type ```show me all``` to list every product
