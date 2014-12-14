@@ -7,6 +7,11 @@ This project is a failed cloning of [PriceGrabber](http://www.pricegrabber.com) 
 [http://limitless-waters-4046.herokuapp.com/public](http://limitless-waters-4046.herokuapp.com/public)
 
 
+### Usage
+* Search for products by typing into the search box.
+* Type ```show me all``` to list every product.
+
+
 ### Note
 Working
 * [J-Force_Product_Web_Service](http://se.cpe.ku.ac.th/wiki/index.php/J-Force_Product_Web_Service)
@@ -15,6 +20,3 @@ Working
 Not working
 * [Trekking_Webservice](https://github.com/Termchai/Trekking_Webservice)
 
-### Usage
-* Search for product by typing into the search box.
-* Type ```show me all``` to list every product
