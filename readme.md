@@ -12,11 +12,8 @@ This project is a failed cloning of [PriceGrabber](http://www.pricegrabber.com) 
 * Type ```show me all``` to list every product.
 
 
-### Note
-Working
+### Partners
 * [J-Force_Product_Web_Service](http://se.cpe.ku.ac.th/wiki/index.php/J-Force_Product_Web_Service)
 * [KU_Relationship](http://se.cpe.ku.ac.th/wiki/index.php/KU_Relationship)
-
-Not working
 * [Trekking_Webservice](https://github.com/Termchai/Trekking_Webservice)
 
