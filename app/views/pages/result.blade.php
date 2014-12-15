@@ -25,7 +25,11 @@
                         @foreach ($indice as $product)
                             <div class="result">
 
-                                <a href="{{ $product['link_to_page'] }}" class="list-group-item">
+                                @if (isset($product['link']['@attributes']['href']) and is_string($product['link']['@attributes']['href']))
+                                    <a href="{{ $product['link']['@attributes']['href'] }}" class="list-group-item">
+                                @else
+                                    <a href="{{ $product['link_to_page'] }}" class="list-group-item">
+                                @endif
 
                                     @if (isset($product['image']) and is_string($product['image']))
                                         <img class"product-img" src="{{ $product['image'] }}" alt="{{ $product['name'] }}" width="150" height="150" style="float: left;">

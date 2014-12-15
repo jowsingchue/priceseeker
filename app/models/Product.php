@@ -21,25 +21,26 @@ class Product extends Eloquent {
             'J-Force' => [
                 'api' => "http://128.199.212.108:8080/api/v1/products/",
                 'url' => "http://128.199.212.108/jf-shop/products/show/"
+                ],
+            'Sabaii' => [
+                'api' => "http://xn--v3cacg3nc8cd.xn--o3cw4h:8080/api/v1/products/",
+                'url' => null
                 ]
-            
             ];
-            // 'Sabaii' => 'http://แม้พแฟ้พ.ไทย:8080/api/v1/products/'
 
         foreach ($uri as $shop)
         {
             $products = self::iterate($shop);
             if ($search == "show me all")
             {
-                $result[] = $products;;
+                $result[] = $products;
             }
             else
             {
                 $result[] = self::contain($products, $search);
             }
         }
-        
-        
+
 
         return $result;
     }
