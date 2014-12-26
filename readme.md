@@ -4,8 +4,7 @@ This project is a failed cloning of [PriceGrabber](http://www.pricegrabber.com) 
 
 
 ### Mainpage
-[http://limitless-waters-4046.herokuapp.com/public](http://limitless-waters-4046.herokuapp.com/public)
-
+[http://priceseeker.herokuapp.com/public](http://priceseeker.herokuapp.com/public)
 
 ### Usage
 * Search for products by typing into the search box.
